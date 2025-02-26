@@ -1,7 +1,52 @@
 <?php include('../includes/header.php'); ?>
 
-<h1>À propos de moi</h1>
-<p>Je suis un développeur passionné, spécialisé dans divers domaines du développement web et logiciel. Découvrez mes compétences en cliquant sur les catégories :</p>
+<div class="d-flex align-items-center justify-content-between flex-wrap">
+    <div class="d-flex align-items-center">
+        <h1 class="me-3">JOSEPH MARIE Julien</h1> <!-- Nom et prénom avec espace à droite -->
+
+        <!-- Logos de contact -->
+        <a href="https://www.linkedin.com/in/ton-profil" target="_blank">
+            <img src="../assets/images/linkedin.png" alt="LinkedIn" style="width: 35px; height: 35px; margin-right: 10px;">
+        </a>
+
+        <a href="https://github.com/Julien95300" target="_blank">
+            <img src="../assets/images/github.png" alt="GitHub" style="width: 60px; height: 35px; margin-right: 10px;">
+        </a>
+
+        <a href="mailto:julienjm07@gmail.com">
+            <img src="../assets/images/gmail.png" alt="Email" style="width: 50px; height: 35px;">
+        </a>
+    </div>
+</div>
+
+<!-- Informations supplémentaires -->
+<p class="mt-2"><strong>20 ans | Développeur Full Stack | Étudiant en 3ème année de BUT Informatique</strong></p>
+
+<!-- Expériences Professionnelles -->
+<h2>Expériences Professionnelles</h2>
+<ul>
+    <li><strong>Stage Développeur Full Stack</strong> - Market Factory, Baillet-en-France (Janvier - Mars 2024)</li>
+    <li><strong>Employé polyvalent</strong> - Leclerc, Osny (Depuis Août 2024)</li>
+    <li><strong>Assistant de caisse</strong> - Carrefour, Montigny Les Cormeilles (Juillet - Août 2022)</li>
+    <li><strong>Entretien d’une école</strong> - Mairie de Pontoise (Juillet 2020)</li>
+    <li><strong>Stage d'observation</strong> - ICMTFRANCE, Cergy (Février 2019)</li>
+</ul>
+
+<!-- Formation -->
+<h2>Formation</h2>
+<ul>
+    <li><strong>BUT Informatique</strong> - IUT de Villetaneuse (2022 - 2025)</li>
+    <li><strong>Baccalauréat STI2D</strong> - Lycée Jean Perrin, Mention Assez Bien (2022)</li>
+</ul>
+
+<!-- Langues parlées -->
+<h2>Langues Parlées</h2>
+<ul>
+    <li>🇫🇷 Français</li>
+    <li>🇮🇳 Tamoul</li>
+    <li>🇬🇧 Anglais</li>
+    <li>🇪🇸 Espagnol</li>
+</ul>
 
 <div class="accordion" id="skillsAccordion">
     <!-- Frontend -->
@@ -39,6 +84,7 @@
                     <li><img src="../assets/images/nodejs.png" alt="Node.js" class="me-2" style="width: 20px;"> Node.js</li>
                     <li><img src="../assets/images/python.png" alt="Python" class="me-2" style="width: 20px;"> Python</li>
                     <li><img src="../assets/images/java.png" alt="Java" class="me-2" style="width: 20px;"> Java</li>
+                    <li><img src="../assets/images/expressjs.png" alt="expressjs" class="me-2" style="width: 30px;"> ExpressJS</li>
                 </ul>
             </div>
         </div>
